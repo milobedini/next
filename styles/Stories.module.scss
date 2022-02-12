@@ -1,0 +1,12 @@
+.stories {
+  display: flex;
+  padding: 0.75rem;
+  margin-top: 1.5rem;
+  border-radius: 0.125rem;
+  overflow-x: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.stories::-webkit-scrollbar {
+  display: none;
+}

@@ -12,9 +12,17 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background: white;
+
   max-width: 84rem;
   margin: 0 1.25rem;
+}
+.headerWrapper {
+  box-shadow: 0 1px 2px 0 #26a96c;
+  border-bottom-width: 1px;
+  background: white;
+  position: sticky;
+  top: 0;
+  z-index: 50;
 }
 @media only screen and (min-width: 1000px) {
   .headerBand {
@@ -98,9 +106,12 @@
   justify-content: flex-end;
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (max-width: 1000px) {
   .headerBand {
     margin: 4px auto 0 auto;
+  }
+  .airplaneWrapper {
+    display: none;
   }
 }
 
@@ -127,4 +138,15 @@
   align-items: center;
   justify-content: center;
   background-color: #fa3e3e;
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+
+  @keyframes pulse {
+    0%,
+    100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.5;
+    }
+  }
 }
