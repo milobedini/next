@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Header from '../components/Header'
 import styles from '../styles/Home.module.scss'
 
 export default function Home() {
@@ -10,8 +11,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <h1>Peacock</h1>
       {/* Header */}
+      <Header />
 
       {/* Feed */}
 
