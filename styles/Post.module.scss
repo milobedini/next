@@ -1,0 +1,23 @@
+.dots {
+  height: 1.25rem;
+}
+.userImage {
+  border-radius: 50%;
+  height: 3rem;
+  width: 3rem;
+  object-fit: contain;
+  border: 1px solid black;
+  padding: 2px;
+  margin-right: 0.75rem;
+}
+
+.postHeader {
+  display: flex;
+  align-items: center;
+  padding: 1.25rem;
+}
+
+.username {
+  flex: 1;
+  font-weight: bold;
+}
