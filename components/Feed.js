@@ -1,6 +1,8 @@
 import styles from '../styles/Feed.module.scss'
+import MiniProfile from './MiniProfile'
 import Posts from './Posts'
 import Stories from './Stories'
+import Suggestions from './Suggestions'
 
 const Feed = () => {
   return (
@@ -9,7 +11,10 @@ const Feed = () => {
         <Stories />
         <Posts />
       </section>
-      <section></section>
+      <section>
+        <MiniProfile />
+        <Suggestions />
+      </section>
     </main>
   )
 }

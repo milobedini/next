@@ -6,6 +6,9 @@
   overflow-x: scroll;
   -ms-overflow-style: none;
   scrollbar-width: none;
+  background: white;
+  border-radius: 8px;
+  border: 1px solid #fa3e3e;
 }
 .stories::-webkit-scrollbar {
   display: none;

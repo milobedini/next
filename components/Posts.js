@@ -1,6 +1,5 @@
 import styles from '../styles/Posts.module.scss'
 import Post from './Post'
-import logo from '../assets/peacock.png'
 
 const testData = [
   {
@@ -8,7 +7,8 @@ const testData = [
     username: 'milobedini',
     userImage:
       'https://res.cloudinary.com/dvgbdioec/image/upload/v1641473906/x92clfsasiacrsyoxci6.jpg',
-    postImage: logo,
+    postImage:
+      'https://res.cloudinary.com/dvgbdioec/image/upload/v1644768223/peacock_yevwhu.png',
     caption: 'Spread your wings. ',
   },
   {
@@ -16,7 +16,8 @@ const testData = [
     username: 'milobedini',
     userImage:
       'https://res.cloudinary.com/dvgbdioec/image/upload/v1641473906/x92clfsasiacrsyoxci6.jpg',
-    postImage: logo,
+    postImage:
+      'https://res.cloudinary.com/dvgbdioec/image/upload/v1644768223/peacock_yevwhu.png',
     caption: 'Spread your wings. ',
   },
   {
@@ -24,7 +25,8 @@ const testData = [
     username: 'milobedini',
     userImage:
       'https://res.cloudinary.com/dvgbdioec/image/upload/v1641473906/x92clfsasiacrsyoxci6.jpg',
-    postImage: logo,
+    postImage:
+      'https://res.cloudinary.com/dvgbdioec/image/upload/v1644768223/peacock_yevwhu.png',
     caption: 'Spread your wings. ',
   },
 ]
