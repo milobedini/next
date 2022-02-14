@@ -7,3 +7,34 @@
   width: 4rem;
   height: 4rem;
 }
+
+.miniProfileWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 3rem;
+  margin-left: 2.5rem;
+}
+
+.username {
+  font-weight: bold;
+}
+
+.welcome {
+  color: #004a8f;
+  font-weight: 400;
+}
+
+.usernameWelcome {
+  margin: 0 0.5rem;
+  flex: 1;
+}
+
+.button {
+  color: #1e9577;
+  border: none;
+  background: none;
+  font-weight: bolder;
+  font-size: smaller;
+  margin-left: 0.75rem;
+}

@@ -11,7 +11,7 @@
   }
 }
 
-@media only screen and (min-width: 1100px) {
+@media only screen and (min-width: 1000px) {
   .main {
     grid-template-columns: repeat(3, minmax(0, 1fr));
     max-width: 72rem;
@@ -23,8 +23,6 @@
   }
 }
 
-.profileSuggestionsWrapper {
-}
 @media only screen and (max-width: 1000px) {
   .profileSuggestionsWrapper {
     display: none;
@@ -42,4 +40,9 @@
   .profileSuggestionsWrapper {
     grid-column: span 1 / span 1;
   }
+}
+
+.profileSuggestionsContainer {
+  position: fixed;
+  top: 4rem;
 }
