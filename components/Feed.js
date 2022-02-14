@@ -11,7 +11,7 @@ const Feed = () => {
         <Stories />
         <Posts />
       </section>
-      <section>
+      <section className={styles.profileSuggestionsWrapper}>
         <MiniProfile />
         <Suggestions />
       </section>

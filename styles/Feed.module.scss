@@ -22,3 +22,24 @@
     grid-column: span 2 / span 2;
   }
 }
+
+.profileSuggestionsWrapper {
+}
+@media only screen and (max-width: 1000px) {
+  .profileSuggestionsWrapper {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .profileSuggestionsWrapper {
+    display: -ms-inline-grid;
+    display: -moz-inline-grid;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .profileSuggestionsWrapper {
+    grid-column: span 1 / span 1;
+  }
+}
